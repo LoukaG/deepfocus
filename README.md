@@ -38,7 +38,7 @@ If you encounter any issues or have suggestions for improvements, please [open a
 
 ## License
 
-This project is licensed under the [GNU v3.0 License](LICENSE.md).
+This project is licensed under the [GNU v3.0 License](LICENSE).
 
 ---
 
