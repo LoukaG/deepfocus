@@ -14,13 +14,11 @@
 
 ## Installation
 
-1. [Download the extension package](https://link-to-your-extension-package.zip).
-2. Extract the downloaded zip file to a local directory.
-3. Open Google Chrome.
-4. Go to `chrome://extensions/`.
-5. Enable "Developer mode" in the top right corner.
-6. Click on "Load unpacked" and select the directory where you extracted the extension package.
-
+1. Pull the repo
+2. Open Google Chrome.
+3. Go to `chrome://extensions/`.
+4. Enable "Developer mode" in the top right corner.
+5. Click on "Load unpacked" and select the directory where you pull the repo
 ## Usage
 
 1. Click on the DeepFocus extension icon in your Chrome toolbar to access the popup.
@@ -30,19 +28,17 @@
 
 ## Screenshots
 
-![Screenshot 1](screenshots/screenshot1.png)
-*Caption for Screenshot 1.*
+![image](https://github.com/LoukaG/deepfocus/assets/66456642/cd3b1d70-ff8c-4980-a645-1765aecf97d3)
 
-![Screenshot 2](screenshots/screenshot2.png)
-*Caption for Screenshot 2.*
+![image](https://github.com/LoukaG/deepfocus/assets/66456642/fc12d6fa-11d9-4c31-8742-5231ceee9682)
 
 ## Feedback and Support
 
-If you encounter any issues or have suggestions for improvements, please [open an issue](https://link-to-issue-tracker) on our issue tracker.
+If you encounter any issues or have suggestions for improvements, please [open an issue](https://github.com/LoukaG/deepfocus/issues) on our issue tracker.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE.md).
+This project is licensed under the [GNU v3.0 License](LICENSE.md).
 
 ---
 
