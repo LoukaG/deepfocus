@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Open+Sans:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/deepwork.css" />
+    <style>
+      .container {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+      }
+
+      .content {
+        width: 95%;
+        max-width: 1000px;
+      }
+
+      body {
+        width: 100vw;
+        height: 100vh;
+        margin: 0 auto;
+      }
+
+      table {
+        width: 100%;
+        color: black;
+        margin: 25px 0;
+        
+        min-width: 400px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        background-color: white;
+      }
+
+      table thead tr {
+        background-color: #009879;
+        color: #ffffff;
+        text-align: left;
+      }
+
+      table tbody tr {
+        border-bottom: 1px solid #dddddd;
+      }
+
+
+      td, th {
+        padding: 12px 15px;
+      }
+
+      table tbody tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+      }
+      label{
+        color: white;
+      }
+    </style>
+
+    <title>Settings - DeepWork</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <h1 class="gradiant-text">Setting</h1>
+        <label>URL</label>
+        <!-- TODO Responsive bouton ajout -->
+        <div class="row">
+            
+            <input type="text" class="u-full-width" id="addUrl">
+            <button class="button-primary" style="float: right;" id="addUrlBtn">+</button>
+        </div>
+        <!-- TODO Retravailler les couleurs -->
+        <table>
+          <thead>
+            <tr>
+              <th style="width: 90%">Site</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="blockSites">
+            
+          </tbody>
+        </table>
+        <!-- TODO pagination -->
+        <footer class="subtext">&copy; Louka Gauthier 2023</footer>
+      </div>
+    </div>
+    <script src="script/settings.js"></script>
+  </body>
+</html>

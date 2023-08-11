@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Open+Sans:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/deepwork.css" />
+    <style>
+      #settings {
+        font-size: 2em;
+        cursor: pointer;
+        transition: 1s rotate;
+      }
+
+      #settings:hover {
+        rotate: 45deg;
+      }
+
+      footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+      }
+    </style>
+
+    <title>DeepWork</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        Unlock Focus, <br />Block the <br /><span class="gradiant-text"
+          >Noise</span
+        >
+      </h1>
+      <lottie-player src="images/programmer.json" background="transparent" loop autoplay>
+
+      </lottie-player>
+      <button id="startDeepWork" class="btn-grad">Chargement...</button>
+      <h4 id="time">You have been working for</h4>
+      <footer>
+        <p id="settings"><i class="bx bxs-cog"></i></p>
+        <p class="subtext">&copy; Louka Gauthier 2023</p>
+      </footer>
+    </div>
+
+    <script src="script/lottie-player.js"></script>
+    <script src="script/popup.js"></script>
+  </body>
+</html>

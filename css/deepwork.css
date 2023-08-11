@@ -1,0 +1,108 @@
+/* Styles for headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Cabin", sans-serif;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  font-size: 2.3em;
+}
+
+/* Additional styles for h4 */
+h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* Container styling */
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Paragraph styling */
+p {
+  text-align: center;
+  color: white;
+}
+
+/* Body styling */
+body {
+  font-family: "Open Sans", sans-serif;
+  background: rgb(45, 59, 102);
+  background: radial-gradient(
+    circle,
+    rgba(45, 59, 102, 1) 0%,
+    rgba(31, 31, 33, 1) 100%
+  );
+  width: 300px;
+  height: 450px;
+}
+
+/* Subtext styling */
+.subtext {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.25);
+  text-align: center;
+  font-size: 0.8em;
+}
+
+/* Gradient text styling */
+.gradiant-text {
+  background: linear-gradient(to right, #de6161, #2657eb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Button gradient styling */
+.btn-grad {
+  background-image: linear-gradient(to right, #de6161 0%, #2657eb 51%, #de6161 100%);
+  margin: 10px;
+  width: 100%;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #5e5b63;
+  border-radius: 10px;
+  display: block;
+  border: none;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+
+/* Work illustration styling */
+.work-illustration {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Button hover effect */
+.btn-grad:hover {
+  background-position: right center;
+  color: white;
+  text-decoration: none;
+}
+
+/* Input field styling */
+input {
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Button styling */
+button {
+  background-color: #1eaedb;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+}
